@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+</head>
+<body>
+    <style type="text/css">
+        div.test
+        {
+            margin: auto;
+            width: 60%;
+            padding: 30px;
+            margin-bottom: 20px;
+            border: 2px solid #000;
+            border-radius: 15px;
+            -moz-border-radius: 30px;
+            text-align: center;
+            font-size: large;
+        }
+        </style>
+        <div class="test" th:text="${q1}"/>
+        <div class="test" th:text="${q2}"/>
+        <div class="test" th:text="${q3}"/>
+</body>
+</html>
